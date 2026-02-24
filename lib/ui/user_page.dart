@@ -1,0 +1,14 @@
+import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
+
+class UserPage extends StatelessWidget {
+  const UserPage({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: Text("user page"),),
+      body: Container(child: Text("hellos"),),
+    );
+  }
+}
