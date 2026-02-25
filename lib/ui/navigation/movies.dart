@@ -30,6 +30,7 @@ class Movies extends StatelessWidget {
   }
 
   void movies(){
+    String heroName = "vj";
     print("gillie");
   }
 
