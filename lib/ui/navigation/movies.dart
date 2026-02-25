@@ -21,6 +21,10 @@ class Movies extends StatelessWidget {
     print("best of best");
   }
 
+  void nums(){
+    print("100");
+  }
+
   void showBlockDialog(BuildContext context) {
     showDialog(
       context: context,
