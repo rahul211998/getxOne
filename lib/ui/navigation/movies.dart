@@ -29,6 +29,10 @@ class Movies extends StatelessWidget {
     print("names");
   }
 
+  void movies(){
+    print("gillie");
+  }
+
   void showBlockDialog(BuildContext context) {
     showDialog(
       context: context,
