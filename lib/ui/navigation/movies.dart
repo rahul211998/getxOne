@@ -17,6 +17,10 @@ class Movies extends StatelessWidget {
     ts.isBlock.value = false;
   }
 
+  void amazing(){
+    print("best of best");
+  }
+
   void showBlockDialog(BuildContext context) {
     showDialog(
       context: context,
